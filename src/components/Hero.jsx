@@ -30,7 +30,7 @@ function Hero() {
         className="absolute inset-0 bg-cover bg-center scale-105"
         style={{
           backgroundImage:
-            "url('https://lanternstay.com/wp-content/uploads/2023/02/Edakkal-Caves-wayanad.jpg')",
+            "url('https://upload.wikimedia.org/wikipedia/commons/6/67/DR0069DSC_9221.jpg')",
         }}
       />
       <div className="absolute inset-0 bg-black/65" />
@@ -45,7 +45,7 @@ function Hero() {
           className="text-5xl md:text-7xl font-serif tracking-wider leading-tight"
           variants={itemVariants}
         >
-          Echoes of Time
+          Heritage of Wayanad
         </motion.h1>
 
         <motion.div
@@ -57,9 +57,19 @@ function Hero() {
           className="mt-6 max-w-2xl text-base md:text-xl text-gray-200 leading-relaxed"
           variants={itemVariants}
         >
-          Discover the stories carved in stone across centuries
+          Three places, centuries of history, one journey through time
         </motion.p>
       </motion.div>
+      {/* Scroll indicator */}
+<div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center">
+  <span className="mb-3 text-xs tracking-widest text-gray-300 animate-scroll-text">
+    SCROLL
+  </span>
+
+  <div className="h-10 w-px bg-white/40" />
+</div>
+
+
     </section>
   );
 }

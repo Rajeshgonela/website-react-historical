@@ -3,21 +3,24 @@ import { motion } from "framer-motion";
 const places = [
   {
     id: "place1",
-    name: "Place One",
-    image:
-      "https://cdn1.tripoto.com/media/filter/nl/img/2380291/Image/1687342710_edakkal_caves.jpg.webp",
-  },
-  {
-    id: "place2",
-    name: "Place Two",
+    name: "Edakkal Caves",
+    subtitle:"Prehistoric stories carved into stone",
     image:
       "https://keralablogexpress.com/wp-content/uploads/2014/04/15438897085_8fddc68c35_o.jpg",
   },
   {
-    id: "place3",
-    name: "Place Three",
+    id: "place2",
+    name: "Thirunelli Temple ",
+    subtitle:"A sacred sanctuary nestled in the hills",
     image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+      "https://thewoodsresorts.com/uploads/media/interesting-facts-about-thirulli-temple63eb3151d364c.jpg",
+  },
+  {
+    id: "place3",
+    name: "Wayanad Heritage Museum",
+    subtitle:"Preserving the legacy of Wayanad’s early civilizations",
+    image:
+      "https://aftertherains.in/blog/wp-content/uploads/2024/02/A-Journey-Through-Wayanad-Heritage-Museum.jpg",
   },
 ];
 

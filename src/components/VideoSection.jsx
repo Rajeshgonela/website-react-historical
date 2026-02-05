@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function VideoSection() {
   return (
-    <section className="bg-black py-28 text-white">
+    <section className="bg-black py-20 text-white">
       <div className="mx-auto max-w-5xl px-6">
 
         {/* Section Header */}

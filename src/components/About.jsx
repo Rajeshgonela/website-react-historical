@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
-function About({title, description}) {
+function About({ title, description, image }) {
   return (
-    <section className="bg-black py-28 text-white">
+    <section className="bg-black py-16 text-white">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid items-center gap-16 md:grid-cols-2">
           
@@ -15,9 +15,10 @@ function About({title, description}) {
             className="overflow-hidden rounded-2xl"
           >
             <img
-                loading="lazy"  decoding="async"
-              src="https://lanternstay.com/wp-content/uploads/2023/02/Edakkal-Caves-wayanad.jpg"
-              alt="Historical place in Wayanad"
+              src={image}
+              alt={title}
+              loading="lazy"
+              decoding="async"
               className="h-full w-full object-cover"
             />
           </motion.div>
@@ -30,23 +31,13 @@ function About({title, description}) {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-serif tracking-wider">
-              About the Place
+              About {title}
             </h2>
 
             <div className="mt-6 h-px w-24 bg-white/40" />
 
             <p className="mt-8 text-lg leading-relaxed text-gray-300">
-              Hidden within the mist-covered hills of Wayanad, this ancient
-              site stands as a quiet witness to centuries of human presence.
-              Shaped by time, nature, and culture, it reflects the enduring
-              relationship between people and the land they once called home.
-            </p>
-
-            <p className="mt-6 text-lg leading-relaxed text-gray-300">
-              Long before modern paths reached these forests, the place held
-              significance as a center of activity, belief, and expression.
-              Its surroundings, untouched and serene, continue to preserve
-              the stories etched into stone and memory.
+              {description}
             </p>
           </motion.div>
 

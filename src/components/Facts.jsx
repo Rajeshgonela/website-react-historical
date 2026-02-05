@@ -7,42 +7,32 @@ const facts = [
   "The cool climate and misty hills contributed to the preservation of stone and carvings.",
 ];
 
-function Facts({facts = [] }) {
+function Facts({ facts = [] }) {
   return (
-    <section className="bg-black pt-28 pb-20 text-white">
-      <div className="mx-auto max-w-6xl px-6">
+    <div className="h-full rounded-2xl border border-white/10 bg-white/5 p-8">
+      <h1 className="mb-6 text-center text-2xl font-serif tracking-wide text-white">
+        Did You Know?
+      </h1>
 
-        {/* Section Header */}
-        <div className="mb-16 text-center">
-          <h2 className="text-4xl font-serif tracking-wider">
-            Did You Know?
-          </h2>
-          <p className="mt-4 text-gray-400">
-            Small facts that reveal a deeper story
-          </p>
-        </div>
+      <ol className="space-y-6">
+        {facts.map((fact, index) => (
+          <li key={index} className="flex gap-4">
+            {/* Number */}
+            <span className="text-lg font-semibold text-white/70">
+              {index + 1}.
+            </span>
 
-        {/* Facts Grid */}
-        <div className="grid gap-10 md:grid-cols-2">
-          {facts.map((fact, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, ease: "easeOut" }}
-              viewport={{ once: true }}
-              className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm"
-            >
-              <p className="text-lg leading-relaxed text-gray-300">
-                {fact}
-              </p>
-            </motion.div>
-          ))}
-        </div>
-
-      </div>
-    </section>
+            {/* Fact text */}
+            <p className="text-base leading-relaxed text-gray-300">
+              {fact}
+            </p>
+          </li>
+        ))}
+      </ol>
+    </div>
   );
 }
 
 export default Facts;
+
+
