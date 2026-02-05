@@ -32,9 +32,9 @@ function Navbar() {
   <li className="cursor-pointer hover:text-white" onClick={() => scrollTo("timelines")}>
     Timelines
   </li>
-  <li className="cursor-pointer hover:text-white" onClick={() => scrollTo("gallery")}>
+  {/* <li className="cursor-pointer hover:text-white" onClick={() => scrollTo("gallery")}>
     Gallery
-  </li>
+  </li> */}
   <li className="cursor-pointer hover:text-white" onClick={() => scrollTo("footer")}>
     Contact
   </li>
