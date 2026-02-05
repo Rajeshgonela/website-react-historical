@@ -7,7 +7,7 @@ const facts = [
   "The cool climate and misty hills contributed to the preservation of stone and carvings.",
 ];
 
-function Facts() {
+function Facts({facts = [] }) {
   return (
     <section className="bg-black pt-28 pb-20 text-white">
       <div className="mx-auto max-w-6xl px-6">

@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+section, footer {
+  scroll-margin-top: 80px;
+}
