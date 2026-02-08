@@ -1,3 +1,18 @@
+import p1 from "../assets/images/pulinjalfort/image01.webp";
+import p2 from "../assets/images/pulinjalfort/image02.webp";
+import p3 from "../assets/images/pulinjalfort/image03.webp";
+import p4 from "../assets/images/pulinjalfort/image04.webp";
+import p5 from "../assets/images/pulinjalfort/image05.webp";
+import p6 from "../assets/images/pulinjalfort/image06.webp";
+import p7 from "../assets/images/pulinjalfort/image07.webp";
+import p8 from "../assets/images/pulinjalfort/image08.webp";
+import p9 from "../assets/images/pulinjalfort/image09.webp";
+import p10 from "../assets/images/pulinjalfort/image10.webp";
+import p11 from "../assets/images/pulinjalfort/image11.webp";
+import p12 from "../assets/images/pulinjalfort/image12.webp";
+
+
+
 export const placesData = [
   {
     id: "place1",
@@ -5,12 +20,7 @@ export const placesData = [
     about:
       "Edakkal Caves are prehistoric rock shelters located in Wayanad with ancient petroglyphs dating back thousands of years, showcasing early human life and art. They are among the most remarkable archaeological sites in southern India. :contentReference[oaicite:3]{index=3}", 
        aboutImage:"https://as1.ftcdn.net/jpg/02/80/71/92/1000_F_280719273_AJ2hs9InFxkrvo8zP5F2yvGpSLzgQvwR.jpg",
-      images: [
-  "https://upload.wikimedia.org/wikipedia/commons/6/6e/Edakkal_Caves.jpg",
-  "https://cdn1.tripoto.com/media/filter/nl/img/2380291/Image/1706788956_edakkal_1_1_1024x536.png",
-  "https://as1.ftcdn.net/jpg/02/80/71/92/1000_F_280719273_AJ2hs9InFxkrvo8zP5F2yvGpSLzgQvwR.jpg"
-],
-
+      images: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12],
     facts: [
   "Edakkal Caves host some of the only Stone Age petroglyphs in South India.",
   "The caves lie about 1200 m above sea level on Ambukutty Mala hill.",
