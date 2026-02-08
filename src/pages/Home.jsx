@@ -7,7 +7,7 @@ import PlaceHeader from "../components/PlaceHeader";
 import LocationMap from "../components/LocationMap";
 import VideoSection from "../components/VideoSection";
 import Facts from "../components/Facts";
-import { placesData } from "../data/Placesdata";
+import { placesData } from "../data/placesData";
 import Footer from "../components/Footer";
 
 function Home() {
