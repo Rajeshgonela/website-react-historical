@@ -1,15 +1,15 @@
-import p1 from "../assets/images/pulinjalfort/image01.webp";
-import p2 from "../assets/images/pulinjalfort/image02.webp";
-import p3 from "../assets/images/pulinjalfort/image03.webp";
-import p4 from "../assets/images/pulinjalfort/image04.webp";
-import p5 from "../assets/images/pulinjalfort/image05.webp";
-import p6 from "../assets/images/pulinjalfort/image06.webp";
-import p7 from "../assets/images/pulinjalfort/image07.webp";
-import p8 from "../assets/images/pulinjalfort/image08.webp";
-import p9 from "../assets/images/pulinjalfort/image09.webp";
-import p10 from "../assets/images/pulinjalfort/image10.webp";
-import p11 from "../assets/images/pulinjalfort/image11.webp";
-import p12 from "../assets/images/pulinjalfort/image12.webp";
+import p1 from "../assets/images/pulinjalfort/Image01.webp";
+import p2 from "../assets/images/pulinjalfort/Image02.webp";
+import p3 from "../assets/images/pulinjalfort/Image03.webp";
+import p4 from "../assets/images/pulinjalfort/Image04.webp";
+import p5 from "../assets/images/pulinjalfort/Image05.webp";
+import p6 from "../assets/images/pulinjalfort/Image06.webp";
+import p7 from "../assets/images/pulinjalfort/Image07.webp";
+import p8 from "../assets/images/pulinjalfort/Image08.webp";
+import p9 from "../assets/images/pulinjalfort/Image09.webp";
+import p10 from "../assets/images/pulinjalfort/Image10.webp";
+import p11 from "../assets/images/pulinjalfort/Image11.webp";
+import p12 from "../assets/images/pulinjalfort/Image12.webp";
 
 
 
